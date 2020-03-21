@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    /* display: flex;
+    justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-block{
+    margin-left: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    /* height: 200px; */
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 6%;
+    background-color: cornflowerblue;
+}
+
+#mainInput, #mainButton{
+    margin: 7px;
+    width: 320px;
+    height: 40px;
+}
+
+.important{
+    color: red;
+    font-weight: bold;
+}
